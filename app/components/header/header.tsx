@@ -13,7 +13,8 @@ export default function Header() {
               menu
             </button>
             <ul className={styles.navWrapper}>
-              <li className={styles.navItem}><a href="#">Home</a></li>
+              <li className={styles.navItem}><a href="/">Home</a></li>
+              <li className={styles.navItem}><a href="/histories">History</a></li>
               <li className={styles.navItem}><a href="#">About</a></li>
               <li className={styles.navItem}><a href="#">Services</a></li>
               <li className={styles.navItem}><a href="/inquires">お問い合わせ</a></li>
