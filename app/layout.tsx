@@ -1,3 +1,4 @@
+import './globals.css'
 import Header from './components/header/header'
 
 export const metadata = {
@@ -12,6 +13,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        />
+      </head>
       <body>
         <Header />
         {children}
